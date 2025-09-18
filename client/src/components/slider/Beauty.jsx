@@ -11,7 +11,9 @@ const Beauty = () => {
   const fetchSites = async () => {
     setLoading(true);
     try {
-      const response = await axios.get("http://localhost:5000/api/sites");
+      const response = await axios.get(
+        "https://gmh-backend.vercel.app/api/sites"
+      );
       setPlaces(response.data);
     } catch (error) {
       console.error("Error fetching places:", error);

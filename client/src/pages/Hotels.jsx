@@ -6,7 +6,7 @@ const Hotels = () => {
     <>
       <HotelsHero />
       <UniversalCard
-        url="http://localhost:5000/api/hotels"
+        url="https://gmh-backend.vercel.app/api/hotels"
         imageUrl="https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg"
         unknown="Unknow Hotel"
         name="Hotel"

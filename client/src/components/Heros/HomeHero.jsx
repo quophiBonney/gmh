@@ -19,7 +19,7 @@ const HomeHero = () => {
     setLoading(true); // start loading
 
     axios
-      .get("http://localhost:5000/api/search", {
+      .get("https://gmh-backend.vercel.app/api/search", {
         params: {
           region: formData.region,
           category: formData.category,

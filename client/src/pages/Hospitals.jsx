@@ -9,7 +9,7 @@ const Hospitals = () => {
         description={"Find hospitals around and across Ghana."}
       />
       <UniversalCard
-        url="http://localhost:5000/api/hospitals"
+        url="https://gmh-backend.vercel.app/api/hospitals"
         imageUrl="https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg"
         unknown="Unknown Hospital"
         name="Hospital"

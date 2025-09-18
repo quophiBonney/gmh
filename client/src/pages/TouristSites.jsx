@@ -11,7 +11,8 @@ const TouristSites = () => {
         }
       />
       <UniversalCard
-        url="http://localhost:5000/api/tourist-sites"
+        // url="http://localhost:5000/api/tourist-sites"
+        url="https://gmh-backend.vercel.app/api/tourist-sites"
         imageUrl="https://images.pexels.com/photos/19031621/pexels-photo-19031621.jpeg"
         unknown="Unknown Tourist Site"
         name="Tourist Site"

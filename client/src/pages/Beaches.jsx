@@ -12,7 +12,7 @@ const Beaches = () => {
         }
       />
       <UniversalCard
-        url="http://localhost:5000/api/beaches"
+        url="https://gmh-backend.vercel.app/api/beaches"
         imageUrl="https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg"
         unknown="Unknown Beach"
         name="Beach"

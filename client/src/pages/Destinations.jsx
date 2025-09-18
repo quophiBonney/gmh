@@ -36,9 +36,12 @@ const Destinations = () => {
 
     const fetchData = async () => {
       try {
-        const res = await axios.get("http://localhost:5000/api/search", {
-          params: { category, region },
-        });
+        const res = await axios.get(
+          "https://gmh-backend.vercel.app/api/search",
+          {
+            params: { category, region },
+          }
+        );
 
         const placesWithExtras = res.data.map((p) => {
           const [lat, lon] = p.coord

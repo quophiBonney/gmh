@@ -131,15 +131,9 @@ const Topbar = () => {
           <div className="md:hidden mt-2 rounded bg-white w-full text-black px-4 py-3 space-y-3 transition-all duration-300">
             <a
               href="/"
-              className="hover:text-green-700 transition duration-300"
+              className="block hover:text-green-700 transition duration-300"
             >
               Home
-            </a>
-            <a
-              href="/ghana/malls"
-              className="hover:text-green-700 transition duration-300"
-            >
-              Malls
             </a>
             <a
               href="/ghana/tourist-sites"
@@ -148,35 +142,22 @@ const Topbar = () => {
               Tourist Sites
             </a>
             <a
-              href="/ghana/hospitals"
-              className="hover:text-green-700 transition duration-300"
-            >
-              Hospitals
-            </a>
-            <a
-              href="/ghana/restaurants"
-              className="hover:text-green-700 transition duration-300"
-            >
-              Restaurants
-            </a>
-            <a
               href="/ghana/beaches"
-              className="hover:text-green-700 transition duration-300"
+              className="block hover:text-green-700 transition duration-300"
             >
               Beaches
             </a>
             <a
               href="/ghana/hotels"
-              className="hover:text-green-700 transition duration-300"
+              className="block hover:text-green-700 transition duration-300"
             >
               Hotels
             </a>
             <a
-              href="/users/registration"
-              target="_blank"
-              className="bg-green-600 rounded text-white p-2 block transition duration-300"
+              href="customers/login.php"
+              className="bg-green-600 rounded text-white p-3 block transition duration-300"
             >
-              Register
+              Portal
             </a>
           </div>
         )}

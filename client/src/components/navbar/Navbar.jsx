@@ -26,7 +26,7 @@ const Topbar = () => {
         >
           {/* Logo */}
           <div>
-            <Link href="/">
+            <Link to="/">
               <h1 className="text-2xl font-bold text-green-600 uppercase">
                 GMH
               </h1>
@@ -36,49 +36,49 @@ const Topbar = () => {
           {/* Desktop Menu */}
           <div className="hidden md:flex gap-6 items-center">
             <Link
-              href="/"
+              to="/"
               className="hover:text-green-700 transition duration-300"
             >
               Home
             </Link>
             <Link
-              href="/ghana/malls"
+              to="/ghana/malls"
               className="hover:text-green-700 transition duration-300"
             >
               Malls
             </Link>
             <Link
-              href="/ghana/tourist-sites"
+              to="/ghana/tourist-sites"
               className="hover:text-green-700 transition duration-300"
             >
               Tourist Sites
             </Link>
             <Link
-              href="/ghana/hospitals"
+              to="/ghana/hospitals"
               className="hover:text-green-700 transition duration-300"
             >
               Hospitals
             </Link>
             <Link
-              href="/ghana/restaurants"
+              to="/ghana/restaurants"
               className="hover:text-green-700 transition duration-300"
             >
               Restaurants
             </Link>
             <Link
-              href="/ghana/beaches"
+              to="/ghana/beaches"
               className="hover:text-green-700 transition duration-300"
             >
               Beaches
             </Link>
             <Link
-              href="/ghana/hotels"
+              to="/ghana/hotels"
               className="hover:text-green-700 transition duration-300"
             >
               Hotels
             </Link>
             <Link
-              href="/users/registration"
+              to="/users/registration"
               target="_blank"
               className="bg-green-600 rounded text-white p-2 block transition duration-300"
             >
@@ -131,31 +131,31 @@ const Topbar = () => {
         {open && (
           <div className="md:hidden mt-2 rounded bg-white w-full text-black px-4 py-3 space-y-3 transition-all duration-300">
             <Link
-              href="/"
+              to="/"
               className="block hover:text-green-700 transition duration-300"
             >
               Home
             </Link>
             <Link
-              href="/ghana/tourist-sites"
+              to="/ghana/tourist-sites"
               className="hover:text-green-700 transition duration-300"
             >
               Tourist Sites
             </Link>
             <Link
-              href="/ghana/beaches"
+              to="/ghana/beaches"
               className="block hover:text-green-700 transition duration-300"
             >
               Beaches
             </Link>
             <Link
-              href="/ghana/hotels"
+              to="/ghana/hotels"
               className="block hover:text-green-700 transition duration-300"
             >
               Hotels
             </Link>
             <Link
-              href="customers/login.php"
+              to="customers/login.php"
               className="bg-green-600 rounded text-white p-3 block transition duration-300"
             >
               Portal

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Link from "react-router-dom";
 
 const Topbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -25,64 +26,64 @@ const Topbar = () => {
         >
           {/* Logo */}
           <div>
-            <a href="/">
+            <Link href="/">
               <h1 className="text-2xl font-bold text-green-600 uppercase">
                 GMH
               </h1>
-            </a>
+            </Link>
           </div>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex gap-6 items-center">
-            <a
+            <Link
               href="/"
               className="hover:text-green-700 transition duration-300"
             >
               Home
-            </a>
-            <a
+            </Link>
+            <Link
               href="/ghana/malls"
               className="hover:text-green-700 transition duration-300"
             >
               Malls
-            </a>
-            <a
+            </Link>
+            <Link
               href="/ghana/tourist-sites"
               className="hover:text-green-700 transition duration-300"
             >
               Tourist Sites
-            </a>
-            <a
+            </Link>
+            <Link
               href="/ghana/hospitals"
               className="hover:text-green-700 transition duration-300"
             >
               Hospitals
-            </a>
-            <a
+            </Link>
+            <Link
               href="/ghana/restaurants"
               className="hover:text-green-700 transition duration-300"
             >
               Restaurants
-            </a>
-            <a
+            </Link>
+            <Link
               href="/ghana/beaches"
               className="hover:text-green-700 transition duration-300"
             >
               Beaches
-            </a>
-            <a
+            </Link>
+            <Link
               href="/ghana/hotels"
               className="hover:text-green-700 transition duration-300"
             >
               Hotels
-            </a>
-            <a
+            </Link>
+            <Link
               href="/users/registration"
               target="_blank"
               className="bg-green-600 rounded text-white p-2 block transition duration-300"
             >
               Register
-            </a>
+            </Link>
           </div>
 
           {/* Hamburger (Mobile) */}
@@ -129,36 +130,36 @@ const Topbar = () => {
         {/* Mobile Menu Dropdown */}
         {open && (
           <div className="md:hidden mt-2 rounded bg-white w-full text-black px-4 py-3 space-y-3 transition-all duration-300">
-            <a
+            <Link
               href="/"
               className="block hover:text-green-700 transition duration-300"
             >
               Home
-            </a>
-            <a
+            </Link>
+            <Link
               href="/ghana/tourist-sites"
               className="hover:text-green-700 transition duration-300"
             >
               Tourist Sites
-            </a>
-            <a
+            </Link>
+            <Link
               href="/ghana/beaches"
               className="block hover:text-green-700 transition duration-300"
             >
               Beaches
-            </a>
-            <a
+            </Link>
+            <Link
               href="/ghana/hotels"
               className="block hover:text-green-700 transition duration-300"
             >
               Hotels
-            </a>
-            <a
+            </Link>
+            <Link
               href="customers/login.php"
               className="bg-green-600 rounded text-white p-3 block transition duration-300"
             >
               Portal
-            </a>
+            </Link>
           </div>
         )}
       </div>
